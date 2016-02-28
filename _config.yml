@@ -1,27 +1,2 @@
-name: "Sarbajeet - AEM Developer"
-description: "Dedicated to Tilo"
-source:      ./
-destination: ./_site
-exclude: [.sass-cache,node_modules,sass,package.json,gruntfile.js,images-src,js/libs,js/custom,js/build,readme.md,.ftppass]
-encoding: utf-8
-paginate: 10
-incremental: true
-paginate_path: "blog/:num"
-permalink: blog/:title/
-excerpt_separator: <!--more-->
-gems: [jekyll-paginate]
-url: "http://valeriopierbattista.com"
-twitter_username: vlrprbttst
-github_username:  vlrprbttst
-
-defaults:
-  -
-    scope:
-      path: "blog"
-      type: "posts"
-    values:
-      layout: "blog-post"
-
-sass:
-  sass_dir:          _scss
-  style:            :compressed
+name: Sarbajeet Roy, AEM Developer
+markdown: kramdown
